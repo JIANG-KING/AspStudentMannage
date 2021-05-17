@@ -17,6 +17,7 @@ public partial class TeacherMenuTest : System.Web.UI.Page
         Label1.Text = "管理员端→欢迎你:" + t.Name1 + "(" + t.ID1 + ")";
         LabelName0.Text = t.Name1;
         LabeState0.Text = t.State1;
+        Image2.ImageUrl = t.Photo1;
     }
 
     protected void ButtonEsc_Click(object sender, EventArgs e)
