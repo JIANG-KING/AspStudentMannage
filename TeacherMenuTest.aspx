@@ -243,12 +243,12 @@
                 <td class="auto-style145">
                     &nbsp;</td>
                 <td class="auto-style228" colspan="2">
-                    <asp:Image ID="Image2" runat="server" Height="93px" Width="107px" />
+                    <asp:Image ID="Image2" runat="server" />
                 </td>
                 <td class="auto-style134">
                     &nbsp;</td>
                 <td colspan="6" rowspan="3" align="right">
-                    <iframe id="Iframe1" name="Iframe1" src="displayinfo.aspx" height="600" class="auto-style244"></iframe>
+                    <iframe id="Iframe1" name="Iframe1" src="../displayinfo.aspx?info=欢迎使用本系统" height="600" class="auto-style244"></iframe>
                 </td>
                 <td rowspan="3" style="width:80px">
                     &nbsp;</td>
