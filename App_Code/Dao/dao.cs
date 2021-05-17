@@ -408,8 +408,9 @@ public class dao
             Course c = (Course)o;
 
             //查询出该课程的老师
-            string teacherId = string.Format("select teacher from course where id='{0}'", c.ID);
-            idr = SqlTools.Read(teacherId);
+            string selectteacherId = string.Format("select id from teacher where name='{0}'", c.Teacher);
+            string teacherId = "";
+            idr = SqlTools.Read(selectteacherId);
             if (idr.Read())
             {
                 teacherId = idr.GetString(0);

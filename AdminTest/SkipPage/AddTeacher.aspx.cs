@@ -47,7 +47,7 @@ public partial class AdminTest_SkipPage_AddTeacher : System.Web.UI.Page
             TextBoxBirth.Text,
             TextBoxArriveDate.Text,
             TextBoxPhone.Text,
-            "addstudent处没有此功能",
+            "https://z3.ax1x.com/2021/05/15/g6hH39.gif",
             TextBoxAddress.Text,
             TextBoxEmail.Text,
             DropDownListDept.SelectedValue
